@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Combo</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" text="text/css" href="cc.css">
+    <script src="cc.js"></script>
+
+</head>
+<body> 
+    <img id='hideMe'class="load_gif" src="loading.gif" height="200px" weigth="200px" alt="loading....">
+
+</div>
+<div id="show_colors" style="visibility: hidden">
+<div class="split left">
+    <div class="centered">
+        <table id="color_pick">
+            <tr>
+                <td><div class='box' id= 'red' draggable="true"></div></td>
+                <td><div class='box' id= 'green' draggable="true"></div></td>
+                <td><div class='box' id= 'navy' draggable="true"></div></td>
+                <td><div class='box' id= 'maroon' draggable="true"></div></td>
+            </tr>
+            <tr>
+                <td><div class='box' id= 'blue' draggable="true"></div></td>
+                <td><div class='box' id= 'orange' draggable="true"></div></td>
+                <td><div class='box' id= 'coral' draggable="true"></div></td>
+                <td><div class='box' id= 'indigo' draggable="true"></div></td>
+            </tr>
+            <tr>
+                <td><div class='box' id= 'yellow' draggable="true"></div></td>
+                <td><div class='box' id= 'purple' draggable="true"></div></td>
+                <td><div class='box' id= 'aqua' draggable="true"></div></td>
+                <td><div class='box' id= 'brown' draggable="true"></div></td>
+            </tr>
+            <tr>
+                <td><div class='box' id= 'violet' draggable="true"></div></td>
+                <td><div class='box' id= 'black' draggable="true"></div></td>
+                <td><div class='box' id= 'lime' draggable="true"></div></td>
+                <td><div class='box' id= 'grey' draggable="true"></div></td>
+            </tr>
+            <tr>
+                <td><div class='box' id= 'white'draggable="true"></div></td>
+                <td><div class='box' id= 'pink'draggable="true"></div></td>
+                <td><div class='box' id= 'dark_green'draggable="true"></div></td>
+                <td><div class='box' id= 'teal'draggable="true"></div></td>
+        </table>
+    </div>
+  </div>
+  
+  <div class="split right">
+    <span>Drag The Color <br>&amp; <br>Drop Here</span>
+    <div  class="box-target" id="cc" onclick="changebackground()"></div>
+    <span id="color">pink</span>
+
+
+    <!-- Side Links -->
+    <div class="side-links">
+    <a href="https://www.linkedin.com/in/abhishek-hegde-652699183/" target="_blank" class="side-link side-link-linkedin">
+        <i class="fab fa-linkedin-square side-link-icon"></i>
+        <span class="side-link-text">Linkedin</span>
+    </a>
+        <a href="https://github.com/abhitechegde" target="_blank" class="side-link side-link-github side-link-icon">
+        <i class="fab fa-github-square"></i>
+        <span class="side-link-text">GitHub</span>
+    </a>
+    <a href="https://www.instagram.com/abhishekvnhegde/" target="_blank" class="side-link side-link-instagram">
+        <i class="fab fa-instagram-square side-link-icon"></i>
+        <span class="side-link-text">Instagram</span>
+    </a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
