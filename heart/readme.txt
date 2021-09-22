@@ -1,0 +1,1 @@
+------keep the browser size to 100% for better view------
